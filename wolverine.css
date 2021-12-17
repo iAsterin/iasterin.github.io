@@ -1,23 +1,31 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-background: url(https://imgur.com/4428Hmj.png);
+background: url(./wolverine-assets/razer base.png);
 height: 651px;
 width: 793px;
 
 }
 
 .xbox.white {
-background: url(https://imgur.com/gXeNlR4.png);
+background: url(./wolverine-assets/razer base.png);
 }
 
 .xbox.disconnected {
-background: url(https://imgur.com/Ogn8wvB.png);
+background: url(./wolverine-assets/razer disc.png);
 }
 
 .xbox.disconnected div {
 display: none;
 }
 
+.xbox.rainbow {
+    background: url(./wolverine-assets/rainbowww.gif);
+    height: 308px;
+    width: 550px;
+    position: absolute;
+    left: 112px;
+    top: 104px;
+}
 
 .xbox .triggers {
 width: 571px;
@@ -29,7 +37,7 @@ left: 112px;
 .xbox .trigger {
 width: 105px;
 height: 135px;
-background: url(https://imgur.com/nEoeiG9.png);
+background: url(./wolverine-assets/razer trigger.png);
 opacity: 0;
 }
 
@@ -46,7 +54,7 @@ transform: rotateY(180deg);
 .xbox .bumper {
 width: 150px;
 height: 65px;
-background: url(https://imgur.com/s3cs6g7.png);
+background: url(./wolverine-assets/razer bumper.png);
 opacity: 0;
 }
 
@@ -113,7 +121,7 @@ left: 319px;
 }
 
 .xbox .back, .xbox .start {
-background: url(https://imgur.com/6PN0efN.png);
+background: url(./wolverine-assets/razer select.png);
 width: 34px;
 height: 32px;
 opacity: 0;
@@ -142,7 +150,7 @@ left: 517px;
 
 .xbox .button {
 position: absolute;
-background: url(https://imgur.com/JzfrbQg.png);
+background: url(./wolverine-assets/Razer abxy.png);
 width: 51px;
 height: 51px;
 }
@@ -187,7 +195,7 @@ left: 144px;
 
 .xbox .stick {
 position: absolute;
-background: url(https://imgur.com/kBHbDOQ.png);
+background: url(./wolverine-assets/razer sticks.png);
 background-position: -102px 0;
 height: 102px;
 width: 102px
@@ -216,7 +224,7 @@ left: 227px;
 }
 
 .xbox .face {
-background: url(https://imgur.com/z4KrlMC.png);
+background: url(./wolverine-assets/razer dpad.png);
 position: absolute;
 opacity: 0;
 }
