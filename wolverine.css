@@ -1,17 +1,17 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-background: url(razer gamepad assets/razer base.png);
+background: url(razer-gamepad-assets/razer-base.png);
 height: 651px;
 width: 793px;
 
 }
 
 .xbox.white {
-background: url(razer gamepad assets/razer base.png);
+background: url(razer-gamepad-assets/razer-base.png);
 }
 
 .xbox.disconnected {
-background: url(razer gamepad assets/razer disc.png);
+background: url(razer-gamepad-assets/razer-disc.png);
 }
 
 .xbox.disconnected div {
@@ -19,7 +19,7 @@ display: none;
 }
 
 .xbox.rainbow {
-    background: url(razer gamepad assets/rainbowww.gif);
+    background: url(razer-gamepad-assets/rainbowww.gif);
     height: 308px;
     width: 550px;
     position: absolute;
@@ -37,7 +37,7 @@ left: 112px;
 .xbox .trigger {
 width: 105px;
 height: 135px;
-background: url(razer gamepad assets/razer trigger.png);
+background: url(razer-gamepad-assets/razer-trigger.png);
 opacity: 0;
 }
 
@@ -54,7 +54,7 @@ transform: rotateY(180deg);
 .xbox .bumper {
 width: 150px;
 height: 65px;
-background: url(razer gamepad assets/razer bumper.png);
+background: url(razer-gamepad-assets/razer-bumper.png);
 opacity: 0;
 }
 
@@ -121,7 +121,7 @@ left: 319px;
 }
 
 .xbox .back, .xbox .start {
-background: url(razer gamepad assets/razer select.png);
+background: url(razer-gamepad-assets/razer-select.png);
 width: 34px;
 height: 32px;
 opacity: 0;
@@ -150,7 +150,7 @@ left: 517px;
 
 .xbox .button {
 position: absolute;
-background: url(razer gamepad assets/Razer abxy.png);
+background: url(razer-gamepad-assets/Razer-abxy.png);
 width: 51px;
 height: 51px;
 }
@@ -195,7 +195,7 @@ left: 144px;
 
 .xbox .stick {
 position: absolute;
-background: url(razer gamepad assets/razer sticks.png);
+background: url(razer-gamepad-assets/razer-sticks.png);
 background-position: -102px 0;
 height: 102px;
 width: 102px
@@ -224,7 +224,7 @@ left: 227px;
 }
 
 .xbox .face {
-background: url(razer gamepad assets/razer dpad.png);
+background: url(razer-gamepad-assets/razer-dpad.png);
 position: absolute;
 opacity: 0;
 }
